@@ -12,7 +12,7 @@ int main() {
     cout << setw(20) << setfill('-') << '\n' << setfill(' ');
     x = minX;
     while (x <= maxX) {
-        y = sin(sqrt(x)) + exp(x) - 3;
+        y = sin(sqrt(x)) + exp(x) - 2;
         cout << fixed << setprecision(2)
             << setw(7) << x << "|" << setw(12) << y << endl;
         x += h;
@@ -22,7 +22,7 @@ int main() {
     cout << setw(20) << setfill('-') << '\n' << setfill(' ');
     x = minX;
     do {
-        y = sin(sqrt(x)) + exp(x) - 3;
+        y = sin(sqrt(x)) + exp(x) - 2;
         cout << fixed << setprecision(2)
             << setw(7) << x << "|" << setw(12) << y << endl;
         x += h;
