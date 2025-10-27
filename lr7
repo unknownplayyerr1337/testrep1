@@ -1,7 +1,7 @@
 #include <iostream>
 #include <iomanip>
 #include <cmath>
-using namespace std;
+using namespace std; // 1312123123
 int main() {
     double y, x, h, minX, maxX;
     minX = 1;
