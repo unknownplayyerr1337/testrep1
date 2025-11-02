@@ -10,7 +10,7 @@ int main() {
     cout << "x -> [" << minX << ", " << maxX << "], h = " << h << endl;
     cout << setw(7) << "x" << "|" << setw(12) << "y" << endl;
     cout << setw(20) << setfill('-') << '\n' << setfill(' ');
-    x = minX;
+    x = minX; // shoto prokomentiroval
     while (x <= maxX) {
         y = sin(sqrt(x)) + exp(x) - 2;
         cout << fixed << setprecision(2)
